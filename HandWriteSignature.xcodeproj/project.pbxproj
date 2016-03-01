@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30390FA81C852C40008C2179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FA71C852C40008C2179 /* AppDelegate.swift */; };
+		30390FAA1C852C40008C2179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FA91C852C40008C2179 /* ViewController.swift */; };
+		30390FAD1C852C40008C2179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30390FAB1C852C40008C2179 /* Main.storyboard */; };
+		30390FAF1C852C40008C2179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30390FAE1C852C40008C2179 /* Assets.xcassets */; };
+		30390FB21C852C40008C2179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30390FB01C852C40008C2179 /* LaunchScreen.storyboard */; };
+		30390FBD1C852C40008C2179 /* HandWriteSignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FBC1C852C40008C2179 /* HandWriteSignatureTests.swift */; };
+		30390FC81C852C40008C2179 /* HandWriteSignatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FC71C852C40008C2179 /* HandWriteSignatureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30390FB91C852C40008C2179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30390F9C1C852C3F008C2179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30390FA31C852C3F008C2179;
+			remoteInfo = HandWriteSignature;
+		};
+		30390FC41C852C40008C2179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30390F9C1C852C3F008C2179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30390FA31C852C3F008C2179;
+			remoteInfo = HandWriteSignature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30390FA41C852C40008C2179 /* HandWriteSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandWriteSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30390FA71C852C40008C2179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30390FA91C852C40008C2179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30390FAC1C852C40008C2179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30390FAE1C852C40008C2179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30390FB11C852C40008C2179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30390FB31C852C40008C2179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30390FB81C852C40008C2179 /* HandWriteSignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWriteSignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30390FBC1C852C40008C2179 /* HandWriteSignatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWriteSignatureTests.swift; sourceTree = "<group>"; };
+		30390FBE1C852C40008C2179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30390FC31C852C40008C2179 /* HandWriteSignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWriteSignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30390FC71C852C40008C2179 /* HandWriteSignatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWriteSignatureUITests.swift; sourceTree = "<group>"; };
+		30390FC91C852C40008C2179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30390FA11C852C3F008C2179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30390FB51C852C40008C2179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30390FC01C852C40008C2179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30390F9B1C852C3F008C2179 = {
+			isa = PBXGroup;
+			children = (
+				30390FA61C852C40008C2179 /* HandWriteSignature */,
+				30390FBB1C852C40008C2179 /* HandWriteSignatureTests */,
+				30390FC61C852C40008C2179 /* HandWriteSignatureUITests */,
+				30390FA51C852C40008C2179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30390FA51C852C40008C2179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30390FA41C852C40008C2179 /* HandWriteSignature.app */,
+				30390FB81C852C40008C2179 /* HandWriteSignatureTests.xctest */,
+				30390FC31C852C40008C2179 /* HandWriteSignatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30390FA61C852C40008C2179 /* HandWriteSignature */ = {
+			isa = PBXGroup;
+			children = (
+				30390FA71C852C40008C2179 /* AppDelegate.swift */,
+				30390FA91C852C40008C2179 /* ViewController.swift */,
+				30390FAB1C852C40008C2179 /* Main.storyboard */,
+				30390FAE1C852C40008C2179 /* Assets.xcassets */,
+				30390FB01C852C40008C2179 /* LaunchScreen.storyboard */,
+				30390FB31C852C40008C2179 /* Info.plist */,
+			);
+			path = HandWriteSignature;
+			sourceTree = "<group>";
+		};
+		30390FBB1C852C40008C2179 /* HandWriteSignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				30390FBC1C852C40008C2179 /* HandWriteSignatureTests.swift */,
+				30390FBE1C852C40008C2179 /* Info.plist */,
+			);
+			path = HandWriteSignatureTests;
+			sourceTree = "<group>";
+		};
+		30390FC61C852C40008C2179 /* HandWriteSignatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30390FC71C852C40008C2179 /* HandWriteSignatureUITests.swift */,
+				30390FC91C852C40008C2179 /* Info.plist */,
+			);
+			path = HandWriteSignatureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30390FA31C852C3F008C2179 /* HandWriteSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30390FCC1C852C40008C2179 /* Build configuration list for PBXNativeTarget "HandWriteSignature" */;
+			buildPhases = (
+				30390FA01C852C3F008C2179 /* Sources */,
+				30390FA11C852C3F008C2179 /* Frameworks */,
+				30390FA21C852C3F008C2179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandWriteSignature;
+			productName = HandWriteSignature;
+			productReference = 30390FA41C852C40008C2179 /* HandWriteSignature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30390FB71C852C40008C2179 /* HandWriteSignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30390FCF1C852C40008C2179 /* Build configuration list for PBXNativeTarget "HandWriteSignatureTests" */;
+			buildPhases = (
+				30390FB41C852C40008C2179 /* Sources */,
+				30390FB51C852C40008C2179 /* Frameworks */,
+				30390FB61C852C40008C2179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30390FBA1C852C40008C2179 /* PBXTargetDependency */,
+			);
+			name = HandWriteSignatureTests;
+			productName = HandWriteSignatureTests;
+			productReference = 30390FB81C852C40008C2179 /* HandWriteSignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30390FC21C852C40008C2179 /* HandWriteSignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30390FD21C852C40008C2179 /* Build configuration list for PBXNativeTarget "HandWriteSignatureUITests" */;
+			buildPhases = (
+				30390FBF1C852C40008C2179 /* Sources */,
+				30390FC01C852C40008C2179 /* Frameworks */,
+				30390FC11C852C40008C2179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30390FC51C852C40008C2179 /* PBXTargetDependency */,
+			);
+			name = HandWriteSignatureUITests;
+			productName = HandWriteSignatureUITests;
+			productReference = 30390FC31C852C40008C2179 /* HandWriteSignatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30390F9C1C852C3F008C2179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ChenDanny;
+				TargetAttributes = {
+					30390FA31C852C3F008C2179 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					30390FB71C852C40008C2179 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 30390FA31C852C3F008C2179;
+					};
+					30390FC21C852C40008C2179 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 30390FA31C852C3F008C2179;
+					};
+				};
+			};
+			buildConfigurationList = 30390F9F1C852C3F008C2179 /* Build configuration list for PBXProject "HandWriteSignature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30390F9B1C852C3F008C2179;
+			productRefGroup = 30390FA51C852C40008C2179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30390FA31C852C3F008C2179 /* HandWriteSignature */,
+				30390FB71C852C40008C2179 /* HandWriteSignatureTests */,
+				30390FC21C852C40008C2179 /* HandWriteSignatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30390FA21C852C3F008C2179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30390FB21C852C40008C2179 /* LaunchScreen.storyboard in Resources */,
+				30390FAF1C852C40008C2179 /* Assets.xcassets in Resources */,
+				30390FAD1C852C40008C2179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30390FB61C852C40008C2179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30390FC11C852C40008C2179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30390FA01C852C3F008C2179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30390FAA1C852C40008C2179 /* ViewController.swift in Sources */,
+				30390FA81C852C40008C2179 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30390FB41C852C40008C2179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30390FBD1C852C40008C2179 /* HandWriteSignatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30390FBF1C852C40008C2179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30390FC81C852C40008C2179 /* HandWriteSignatureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30390FBA1C852C40008C2179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30390FA31C852C3F008C2179 /* HandWriteSignature */;
+			targetProxy = 30390FB91C852C40008C2179 /* PBXContainerItemProxy */;
+		};
+		30390FC51C852C40008C2179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30390FA31C852C3F008C2179 /* HandWriteSignature */;
+			targetProxy = 30390FC41C852C40008C2179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30390FAB1C852C40008C2179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30390FAC1C852C40008C2179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30390FB01C852C40008C2179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30390FB11C852C40008C2179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30390FCA1C852C40008C2179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30390FCB1C852C40008C2179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30390FCD1C852C40008C2179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandWriteSignature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.HandWriteSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30390FCE1C852C40008C2179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandWriteSignature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.HandWriteSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30390FD01C852C40008C2179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HandWriteSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.HandWriteSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandWriteSignature.app/HandWriteSignature";
+			};
+			name = Debug;
+		};
+		30390FD11C852C40008C2179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HandWriteSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.HandWriteSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandWriteSignature.app/HandWriteSignature";
+			};
+			name = Release;
+		};
+		30390FD31C852C40008C2179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HandWriteSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.HandWriteSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HandWriteSignature;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		30390FD41C852C40008C2179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HandWriteSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Danny.HandWriteSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HandWriteSignature;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30390F9F1C852C3F008C2179 /* Build configuration list for PBXProject "HandWriteSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30390FCA1C852C40008C2179 /* Debug */,
+				30390FCB1C852C40008C2179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30390FCC1C852C40008C2179 /* Build configuration list for PBXNativeTarget "HandWriteSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30390FCD1C852C40008C2179 /* Debug */,
+				30390FCE1C852C40008C2179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30390FCF1C852C40008C2179 /* Build configuration list for PBXNativeTarget "HandWriteSignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30390FD01C852C40008C2179 /* Debug */,
+				30390FD11C852C40008C2179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30390FD21C852C40008C2179 /* Build configuration list for PBXNativeTarget "HandWriteSignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30390FD31C852C40008C2179 /* Debug */,
+				30390FD41C852C40008C2179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30390F9C1C852C3F008C2179 /* Project object */;
+}
