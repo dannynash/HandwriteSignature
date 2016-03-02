@@ -14,6 +14,10 @@
 		30390FB21C852C40008C2179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30390FB01C852C40008C2179 /* LaunchScreen.storyboard */; };
 		30390FBD1C852C40008C2179 /* HandWriteSignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FBC1C852C40008C2179 /* HandWriteSignatureTests.swift */; };
 		30390FC81C852C40008C2179 /* HandWriteSignatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FC71C852C40008C2179 /* HandWriteSignatureUITests.swift */; };
+		30390FD61C8535F8008C2179 /* 572495736.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 30390FD51C8535F8008C2179 /* 572495736.pdf */; };
+		30390FD81C8539CF008C2179 /* HWSPdfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FD71C8539CF008C2179 /* HWSPdfView.swift */; };
+		30390FDA1C858C85008C2179 /* HandwriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FD91C858C85008C2179 /* HandwriteViewController.swift */; };
+		30390FDE1C858EDE008C2179 /* HWSCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30390FDD1C858EDE008C2179 /* HWSCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		30390FC31C852C40008C2179 /* HandWriteSignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWriteSignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30390FC71C852C40008C2179 /* HandWriteSignatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWriteSignatureUITests.swift; sourceTree = "<group>"; };
 		30390FC91C852C40008C2179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30390FD51C8535F8008C2179 /* 572495736.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 572495736.pdf; path = ../../../../Desktop/572495736.pdf; sourceTree = "<group>"; };
+		30390FD71C8539CF008C2179 /* HWSPdfView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWSPdfView.swift; sourceTree = "<group>"; };
+		30390FD91C858C85008C2179 /* HandwriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HandwriteViewController.swift; path = ViewController/HandwriteViewController.swift; sourceTree = "<group>"; };
+		30390FDD1C858EDE008C2179 /* HWSCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWSCommon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				30390FA71C852C40008C2179 /* AppDelegate.swift */,
-				30390FA91C852C40008C2179 /* ViewController.swift */,
+				30390FDD1C858EDE008C2179 /* HWSCommon.swift */,
+				30390FDB1C858C8F008C2179 /* ViewController */,
+				30390FD71C8539CF008C2179 /* HWSPdfView.swift */,
 				30390FAB1C852C40008C2179 /* Main.storyboard */,
 				30390FAE1C852C40008C2179 /* Assets.xcassets */,
+				30390FD51C8535F8008C2179 /* 572495736.pdf */,
 				30390FB01C852C40008C2179 /* LaunchScreen.storyboard */,
 				30390FB31C852C40008C2179 /* Info.plist */,
 			);
@@ -123,6 +134,15 @@
 				30390FC91C852C40008C2179 /* Info.plist */,
 			);
 			path = HandWriteSignatureUITests;
+			sourceTree = "<group>";
+		};
+		30390FDB1C858C8F008C2179 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30390FA91C852C40008C2179 /* ViewController.swift */,
+				30390FD91C858C85008C2179 /* HandwriteViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30390FB21C852C40008C2179 /* LaunchScreen.storyboard in Resources */,
+				30390FD61C8535F8008C2179 /* 572495736.pdf in Resources */,
 				30390FAF1C852C40008C2179 /* Assets.xcassets in Resources */,
 				30390FAD1C852C40008C2179 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30390FAA1C852C40008C2179 /* ViewController.swift in Sources */,
+				30390FDA1C858C85008C2179 /* HandwriteViewController.swift in Sources */,
+				30390FD81C8539CF008C2179 /* HWSPdfView.swift in Sources */,
+				30390FDE1C858EDE008C2179 /* HWSCommon.swift in Sources */,
 				30390FA81C852C40008C2179 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
